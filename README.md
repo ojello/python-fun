@@ -1,2 +1,2 @@
 # python-fun
-learning 🐍 and what not
+learning 🐍 and what not - mini projects
