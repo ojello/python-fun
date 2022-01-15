@@ -63,3 +63,26 @@ year = int(input())
 print(is_leap(year))
 # test 5 - 1992
 # test 1 - 2100
+
+
+#
+if __name__ == '__main__':
+    n = int(input())
+    i = 1
+    result = ''
+    while i <= n:
+        # result.join((i))
+        result += str(i)
+        print(result)
+        i += 1
+
+# Print function
+if __name__ == '__main__':
+    n = int(input())
+    i = 1
+    result = ''
+    while i <= n:
+        # result.join((i))
+        result += str(i)
+        i += 1
+    print(result)
