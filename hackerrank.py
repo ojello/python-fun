@@ -8,6 +8,21 @@ if __name__ == '__main__':
     else:
         print("Not Weird")
 
+#division problem
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+    print(a // b)
+    print(a/b)
+
+
+# arithmetic problem
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+    print( a + b)
+    print(a - b)
+    print(a * b)
 
 
 # function problem
@@ -22,3 +37,10 @@ def is_leap(year):
     return leap
 
 year = int(input())
+
+
+#loops problem
+if __name__ == '__main__':
+    n = int(input())
+    for i in range(0, n):
+        print(i**2)
