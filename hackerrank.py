@@ -61,5 +61,5 @@ def is_leap(year):
 
 year = int(input())
 print(is_leap(year))
-test 5 - 1992
-test 1 - 2100
+# test 5 - 1992
+# test 1 - 2100
