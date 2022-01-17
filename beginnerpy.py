@@ -130,4 +130,63 @@
 # adding 1 to the variable x
 # doesn't print 10 because it has to be less than 10
 
-# While Loops
+# # While Loops
+# # while condition == True:
+# # do this
+# # keeps going when condition is true till the condition is false
+# loop = True
+# while loop:
+#     name = input('insert something:')
+#     if name == 'stop':
+#         loop = False
+#         break
+
+# # Lists and Tuples
+# # lists can be a collection of data types - same data types or different ones
+
+# fruits = ['apple', 'pear', 3]
+# print(fruits)
+
+# # print out just pear
+# print(fruits[1])
+
+# # add an element to the list
+# fruits.append('orange')
+
+# fruits[3] = 'blueberry'
+# print(fruits)
+# # changes orange to blueberry
+# # lists are useful to storing a lot of items
+
+# # Tuple
+# # used for coordinates, colors
+# # looks very similar to a list,
+# position = (2, 3)
+# color = (255, 255, 255)
+# print(type(color))
+
+# Iteration by item
+
+# # iterating through every item
+# foods = ['spaghetti', 'cupcake', 'turnip']
+
+# for food in foods:
+#     print(food)
+#     # will print each item from the foods list
+
+
+# for food in foods:
+#     if food == 'pears':
+#         print(food)
+#     else:
+#         print('no pears')
+# # checks every item to see if condition pears is true
+
+# for x in range(0, len(foods)):
+#     if food[x] == 'pears':
+#         print(food[x])
+#     else:
+#         print('Not pears')
+
+# String methods
+# .strip(), len(), .lower(), .upper(), .split()
